@@ -111,6 +111,7 @@ h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 64px;
   letter-spacing: .05em;
+  color: #1A3F7A;
   margin-bottom: 0;
 }
 
@@ -126,7 +127,7 @@ article {
   margin-right: 10%;
 }
 
-.post_info img, .post_info p {
+.post_info img, .post_info p, .post_info a {
   display: inline-block;
   vertical-align: middle;
 }
@@ -135,6 +136,9 @@ article div {
   text-decoration: none;
   padding-left: 0;
   margin-top: 0;
+}
+
+.post_info {
   margin-bottom: 40px;
 }
 
@@ -152,6 +156,7 @@ article p {
 
 article a, .color_change {
   color: #CFCFD1;
+  font-size: 22px;
 }
 
 article a:hover {
@@ -176,7 +181,7 @@ aside {
   margin-top: 100px;
 }
 
-aside div {
+.author {
   margin-bottom: 50px;
 }
 
@@ -217,9 +222,21 @@ aside a:hover {
   text-decoration: none;
 }
 
+.ad img {
+  margin-bottom: 0;
+}
+
+.ad {
+  margin-bottom: 0;
+}
+
 .adlink {
   float: right;
   padding-right: 10px;
+}
+
+.sidetext {
+  margin-top: 50px;
 }
 
 .sidetext h3 {
@@ -241,7 +258,7 @@ SECTION
 section {
   border-top: 2px solid #CFCFD1;
   margin-top: 100px;
-  position:relative;
+  position: relative;
 }
 
 section h2 {
@@ -348,6 +365,7 @@ FOOTER
 ********************************/
 footer {
   padding-top: 20px;
+  min-width: 100%;
 }
 
 footer nav {
@@ -393,4 +411,157 @@ footer a, li {
 
 .right_footer_nav a:hover {
   color: #061D42;
+}
+
+/*******************************
+RESPONSIVE
+********************************/
+
+@media screen and (min-width: 320px) and
+(max-width: 550px){
+  header {
+    height: 250px;
+    clear: both;
+  }
+
+  header h1 {
+    font-size: 45px;
+  }
+
+  header p {
+    font-size: 22px;
+  }
+
+  .left_nav a {
+    display: none;
+  }
+
+  .left_nav {
+    position: relative;
+  }
+
+  .left_nav img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  article h2 {
+    font-size: 52px;
+  }
+
+  article, aside, section, footer {
+    display: block;
+    vertical-align: top;
+    min-width: 90%;
+  }
+
+  article {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .post_info img, .post_info p {
+    display: none;
+  }
+
+  .post_info {
+    margin-bottom: 15px;
+  }
+
+  article p {
+    font-size: 18px;
+    color: #646466;
+    line-height: 1.4em;
+  }
+
+  article a, .color_change {
+    color: #CFCFD1;
+    font-size: 18px;
+  }
+
+  blockquote {
+    font-size: 20px;
+  }
+
+  article {
+    margin-bottom: 40px;
+  }
+
+  aside {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .social {
+    margin: 0 auto;
+    padding-left: 80px;
+  }
+
+  .ad div {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .adlink {
+    float: right;
+    padding-right: 30px;
+  }
+
+  .adimage {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 2px;
+  }
+
+  .sidetext {
+    display: none;
+  }
+
+  section h2 {
+    font-size: 34px;
+  }
+
+  .popular_posts div {
+    display: block;
+    vertical-align: top;
+    min-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .popular_posts {
+    display: block;
+    vertical-align: top;
+    min-width: 90%;
+  }
+
+  .popular_posts div {
+    float: none;
+  }
+
+  .popular_posts p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+  }
+
+  .surfer, .flight, .zach, .liquor {
+    min-width: 90%;
+    margin: 0 auto;
+  }
+
+  .surfer p {
+
+  }
+
+  footer {
+    clear: both;
+  }
+
+  .copyright {
+    margin: 0;
+  }
+
 }
