@@ -444,16 +444,16 @@ MOBILE RESPONSIVE
 @media screen and (min-width: 320px) and
 (max-width: 550px) {
   header {
-    height: 275px;
+    height: 300px;
     clear: both;
   }
 
   header h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   header p {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .left_nav, .right_nav {
@@ -461,7 +461,7 @@ MOBILE RESPONSIVE
   }
 
   header nav {
-    width: 400px;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
   }
@@ -475,10 +475,6 @@ MOBILE RESPONSIVE
     position: relative;
   }
 
-  .left_nav_mobile {
-    padding-left: 20px;
-  }
-
   #wave_logo {
     padding: 0;
     display: block;
@@ -487,7 +483,7 @@ MOBILE RESPONSIVE
   }
 
   article h2 {
-    font-size: 52px;
+    font-size: 50px;
   }
 
   article, aside, section, footer {
@@ -535,7 +531,11 @@ MOBILE RESPONSIVE
 
   .social {
     margin: 0 auto;
-    padding-left: 80px;
+    width: 90%;
+  }
+
+  .social a {
+    font-size: 14px;
   }
 
   .ad div {
@@ -559,7 +559,7 @@ MOBILE RESPONSIVE
   }
 
   section h2 {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .popular_posts div {
@@ -584,11 +584,14 @@ MOBILE RESPONSIVE
     bottom: 10px;
     left: 10px;
     margin: 0;
+    font-size: 28px;
+    max-width: 200px;
   }
 
   .surfer, .flight, .zach, .liquor {
-    min-width: 90%;
+    min-width: 80%;
     margin: 0 auto;
+    background-repeat: no-repeat;
   }
 
   .footer_nav {
