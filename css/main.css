@@ -208,8 +208,8 @@ aside a:hover {
 }
 
 .social {
-  margin-top: 10px;
-  padding-left: 30px;
+  max-width: 75%;
+  margin-left: 6%;
 }
 
 .social li {
@@ -550,7 +550,7 @@ TABLET RESPONSIVE
   .popular_posts div {
     display: block;
     vertical-align: top;
-    min-width: 90%;
+    min-width: 40%;
     margin-bottom: 20px;
     float: none;
   }
@@ -574,6 +574,11 @@ TABLET RESPONSIVE
     min-width: 80%;
     margin: 0 auto;
     background-repeat: no-repeat;
+  }
+
+  .surfer:hover a {
+    max-width: 80%
+    margin: 0 auto;
   }
 
   .footer_nav {
@@ -826,6 +831,205 @@ MOBILE RESPONSIVE
     text-align: center;
     margin: 0;
     line-height: 1.4em;
+  }
+
+}
+
+/*******************************
+SMALL MOBILE RESPONSIVE
+*******************************/
+
+@media screen and (max-width: 320px) {
+
+  header {
+    height: 200px;
+    clear: both;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  .left_nav, .right_nav {
+    display: none;
+  }
+
+  header nav {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  header nav ul {
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .right_nav_mobile {
+    position: relative;
+  }
+
+  #wave_logo {
+    padding: 0;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  article h2 {
+    font-size: 30px;
+  }
+
+  article, aside, section, footer {
+    display: block;
+    vertical-align: top;
+    min-width: 90%;
+  }
+
+  article {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .post_info img, .post_info p {
+    display: none;
+  }
+
+  .post_info {
+    margin-bottom: 10px;
+  }
+
+  article p {
+    font-size: 12px;
+    color: #646466;
+    line-height: 1.4em;
+  }
+
+  article a, .color_change {
+    color: #CFCFD1;
+    font-size: 12px;
+  }
+
+  blockquote {
+    font-size: 26px;
+  }
+
+  article {
+    margin-bottom: 25px;
+  }
+
+  aside {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .social a {
+    font-size: 10px;
+  }
+
+  .social {
+    max-width: 60%;
+    margin-left: 30%;
+  }
+
+  .ad div {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .adlink {
+    float: right;
+    padding-right: 10%;
+  }
+
+  .adimage {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 2px;
+  }
+
+  .sidetext {
+    display: none;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  .popular_posts div {
+    display: block;
+    vertical-align: top;
+    min-width: 90%;
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  .popular_posts {
+    display: block;
+    vertical-align: top;
+    min-width: 90%;
+  }
+
+  .popular_posts p {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    margin: 0;
+    font-size: 18px;
+    max-width: 200px;
+  }
+
+  .surfer, .flight, .zach, .liquor {
+    min-width: 80%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  }
+
+  .footer_nav {
+    display: none;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  footer nav {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .copyright {
+    margin: 0;
+  }
+
+  .mobile_right_footer_nav {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .mobile_right_footer_nav a {
+    font-size: 12px;
+  }
+
+  .mobile_copyright img {
+    padding: 0;
+    display: block;
+    width: 25px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .mobile_copyright p {
+    text-align: center;
+    margin: 0;
+    line-height: 1.4em;
+    font-size: 12px;
   }
 
 }
