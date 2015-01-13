@@ -208,8 +208,8 @@ aside a:hover {
 }
 
 .social {
-  margin-top: 0;
-  padding-left: 45px;
+  margin-top: 10px;
+  padding-left: 30px;
 }
 
 .social li {
@@ -220,6 +220,7 @@ aside a:hover {
 
 .social a {
   text-decoration: none;
+  font-size: 12px;
 }
 
 .ad img {
@@ -269,7 +270,7 @@ section h2 {
 
 .popular_posts a, .popular_posts div {
   font-family: 'Oswald', sans-serif;
-  font-size: 34px;
+  font-size: 26px;
   color: #1A3F7A;
   text-decoration: none;
   font-weight: bold;
@@ -286,8 +287,8 @@ section h2 {
 
 .popular_posts p {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 10px;
+  left: 5px;
   margin: 0;
   width: 325px;
 }
@@ -417,7 +418,7 @@ footer a, li {
 WEB RESPONSIVE NAVIGATION
 ********************************/
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1200px) {
   .left_nav_mobile, .right_nav_mobile, .mobile_footer_nav {
     display: none;
   }
@@ -428,23 +429,11 @@ WEB RESPONSIVE NAVIGATION
 TABLET RESPONSIVE
 *******************************/
 
-@media screen and (min-width: 550px) and
-(max-width: 850px) {
-  .left_nav_mobile, .right_nav_mobile, .mobile_footer_nav {
-    display: none;
-  }
+@media screen and (min-width: 551px) and
+(max-width: 1199px) {
 
-}
-
-
-/*******************************
-MOBILE RESPONSIVE
-*******************************/
-
-@media screen and (min-width: 320px) and
-(max-width: 550px) {
   header {
-    height: 300px;
+    height: 275px;
     clear: both;
   }
 
@@ -453,7 +442,7 @@ MOBILE RESPONSIVE
   }
 
   header p {
-    font-size: 20px;
+    font-size: 26px;
   }
 
   .left_nav, .right_nav {
@@ -484,6 +473,207 @@ MOBILE RESPONSIVE
 
   article h2 {
     font-size: 50px;
+  }
+
+  article, aside, section, footer {
+    display: block;
+    vertical-align: top;
+    min-width: 90%;
+  }
+
+  article {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .post_info {
+    margin-bottom: 15px;
+  }
+
+  article p {
+    font-size: 20px;
+    color: #646466;
+    line-height: 1.4em;
+  }
+
+  article a, .color_change {
+    color: #CFCFD1;
+    font-size: 18px;
+  }
+
+  blockquote {
+    font-size: 22px;
+  }
+
+  article {
+    margin-bottom: 40px;
+  }
+
+  aside {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .social a {
+    font-size: 14px;
+  }
+
+  .social {
+    max-width: 45%;
+    margin-left: 28%;
+  }
+
+  .ad div {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .adlink {
+    float: right;
+    padding-right: 10%;
+  }
+
+  .adimage {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 2px;
+  }
+
+  .sidetext {
+    display: none;
+  }
+
+  section h2 {
+    font-size: 30px;
+  }
+
+  .popular_posts div {
+    display: block;
+    vertical-align: top;
+    min-width: 90%;
+    margin-bottom: 20px;
+    float: none;
+  }
+
+  .popular_posts {
+    display: block;
+    vertical-align: top;
+    min-width: 90%;
+  }
+
+  .popular_posts p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 28px;
+    max-width: 200px;
+  }
+
+  .surfer, .flight, .zach, .liquor {
+    min-width: 80%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  }
+
+  .footer_nav {
+    display: none;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  footer nav {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .copyright img {
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  .copyright {
+    margin: 0;
+  }
+
+  footer nav {
+    text-align: center;
+  }
+
+  .mobile_right_footer_nav {
+    padding: 0;
+    font-size: 18px;
+  }
+
+  .mobile_copyright img {
+    padding: 0;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .mobile_copyright p {
+    text-align: center;
+    margin: 0;
+    line-height: 1.4em;
+  }
+
+}
+
+
+/*******************************
+MOBILE RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 320px) and
+(max-width: 550px) {
+  header {
+    height: 250px;
+    clear: both;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  header p {
+    font-size: 18px;
+  }
+
+  .left_nav, .right_nav {
+    display: none;
+  }
+
+  header nav {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  header nav ul {
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .right_nav_mobile {
+    position: relative;
+  }
+
+  #wave_logo {
+    padding: 0;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  article h2 {
+    font-size: 48px;
   }
 
   article, aside, section, footer {
@@ -529,13 +719,12 @@ MOBILE RESPONSIVE
     margin: 0 auto;
   }
 
-  .social {
-    margin: 0 auto;
-    width: 90%;
+  .social a {
+    font-size: 10px;
   }
 
-  .social a {
-    font-size: 14px;
+  .social {
+    margin-left: 15%;
   }
 
   .ad div {
@@ -545,7 +734,7 @@ MOBILE RESPONSIVE
 
   .adlink {
     float: right;
-    padding-right: 30px;
+    padding-right: 10%;
   }
 
   .adimage {
@@ -567,16 +756,13 @@ MOBILE RESPONSIVE
     vertical-align: top;
     min-width: 90%;
     margin-bottom: 20px;
+    float: none;
   }
 
   .popular_posts {
     display: block;
     vertical-align: top;
     min-width: 90%;
-  }
-
-  .popular_posts div {
-    float: none;
   }
 
   .popular_posts p {
