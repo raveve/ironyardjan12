@@ -636,8 +636,9 @@ TABLET RESPONSIVE
 MOBILE RESPONSIVE
 *******************************/
 
-@media screen and (min-width: 320px) and
+@media screen and (min-width: 321px) and
 (max-width: 550px) {
+
   header {
     height: 250px;
     clear: both;
