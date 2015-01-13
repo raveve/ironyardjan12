@@ -843,7 +843,7 @@ SMALL MOBILE RESPONSIVE
 @media screen and (max-width: 320px) {
 
   header {
-    height: 200px;
+    height: 225px;
     clear: both;
   }
 
@@ -852,7 +852,7 @@ SMALL MOBILE RESPONSIVE
   }
 
   header p {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .left_nav, .right_nav {
@@ -862,7 +862,6 @@ SMALL MOBILE RESPONSIVE
   header nav {
     width: 90%;
     margin: 0 auto;
-    text-align: center;
   }
 
   header nav ul {
@@ -916,7 +915,7 @@ SMALL MOBILE RESPONSIVE
   }
 
   blockquote {
-    font-size: 26px;
+    font-size: 18px;
   }
 
   article {
@@ -929,12 +928,17 @@ SMALL MOBILE RESPONSIVE
   }
 
   .social a {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .social {
-    max-width: 60%;
-    margin-left: 30%;
+    max-width: 70%;
+    margin-left: .5%;
+  }
+
+  .social li {
+    padding-left: 1px;
+    padding-right: 1px;
   }
 
   .ad div {
@@ -958,7 +962,7 @@ SMALL MOBILE RESPONSIVE
   }
 
   section h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .popular_posts div {
