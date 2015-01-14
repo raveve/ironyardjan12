@@ -1,0 +1,77 @@
+/*******************************
+ASIDE
+********************************/
+aside {
+  width: 20%;
+  margin-top: 100px;
+}
+
+.author {
+  margin-bottom: 50px;
+}
+
+.norm_author {
+  border-radius: 100%;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+  color: $chathams-blue;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+aside a, li {
+  color: $french-gray;
+}
+
+aside a:hover {
+  color: $chathams-blue;
+}
+
+.social {
+  max-width: 75%;
+  margin-left: 6%;
+}
+
+.social li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.social a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.ad img {
+  margin-bottom: 0;
+}
+
+.ad {
+  margin-bottom: 0;
+}
+
+.adlink {
+  float: right;
+  padding-right: 10px;
+}
+
+.sidetext {
+  margin-top: 50px;
+}
+
+.sidetext h3 {
+  font-size: 22px;
+  text-align: left;
+}
+
+.sidetext p {
+  font-size: 18px;
+  color: $french-gray;
+  line-height: 1.8em;
+}

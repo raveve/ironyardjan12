@@ -1,0 +1,94 @@
+/*******************************
+BODY
+********************************/
+body {
+  font-family: $headerbody-font;
+  margin: 0;
+  padding: 0;
+}
+
+article, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*******************************
+HEADER
+********************************/
+header {
+  background: $gradient,
+  url("../images/beach.jpg");
+  min-width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a, .left_nav a {
+  text-decoration: none;
+  color: $arapawa;
+}
+
+.right_nav a, .left_nav_mobile a {
+  font-family: $extra-font;
+}
+
+.right_nav a:hover, .left_nav a:hover, .left_nav_mobile a:hover, .mobile_right_footer_nav a:hover {
+  color: $white;
+}
+
+#wave_logo {
+  border-radius: 100%;
+  height: 50px;
+  padding-right: 10px;
+}
+
+#wave_logo:hover {
+  cursor: pointer;
+}
+
+.left_nav img, .left_nav p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+h1 {
+  font-family: $headerbody-font;
+  font-size: 100px;
+  color: $white;
+  letter-spacing: .1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+header p {
+  text-align: center;
+  font-weight: bold;
+  color: $deep-cove;
+  margin-top: 0;
+}
+
+.left_nav {
+  margin-left: 100px;
+  padding-top: 60px;
+  max-width: 500px;
+}
+
+.right_nav {
+  float: right;
+  margin-right: 100px;
+  margin-top: -30px;
+}
+
+.right_nav li, .left_nav_mobile li {
+  padding-right: 15px;
+}

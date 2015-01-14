@@ -1,0 +1,92 @@
+/*******************************
+SECTION
+********************************/
+
+section {
+  border-top: 2px solid $french-gray;
+  margin-top: 100px;
+  position: relative;
+}
+
+section h2 {
+  text-align: center;
+  color: $chathams-blue;
+  margin-bottom: 30px;
+}
+
+.popular_posts a, .popular_posts div {
+  font-family: $extra-font;
+  font-size: 26px;
+  color: $chathams-blue;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline;
+  height: 325px;
+  width: 25%;
+  float: left;
+  position: relative;
+}
+
+.popular_posts a {
+  width: 325px;
+}
+
+.popular_posts p {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  margin: 0;
+  width: 325px;
+}
+
+.surfer {
+  background: $gradient,
+  url("../images/surfer.jpg");
+}
+
+.surfer:hover {
+  background-image: url("../images/surfer.jpg");
+}
+
+.surfer:hover a {
+  color: $white;
+}
+
+.flight {
+  background: $gradient,
+  url("../images/flight.jpg");
+}
+
+.flight:hover {
+  background-image: url("../images/flight.jpg");
+}
+
+.flight:hover a {
+  color: $white;
+}
+
+.zach {
+  background: $gradient,
+  url("../images/zach.jpg");
+}
+
+.zach:hover {
+  background-image: url("../images/zach.jpg");
+}
+
+.zach:hover a {
+  color: $white;
+}
+
+.liquor {
+  background: $gradient,
+  url("../images/liquor.jpg");
+}
+
+.liquor:hover {
+  background-image: url("../images/liquor.jpg");
+}
+
+.liquor:hover a {
+  color: $white;
+}

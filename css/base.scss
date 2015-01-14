@@ -1,0 +1,20 @@
+$headerbody-font: 'Open Sans Condensed', sans-serif;
+$extra-font: 'Oswald', sans-serif;
+$arapawa: #0B0D66;
+$white: #FFFFFF;
+$deep-cove: #061D42;
+$chathams-blue: #1A3F7A;
+$mid-gray: #646466;
+$french-gray: #CFCFD1;
+$gradient: linear-gradient(
+rgba(57, 111, 196, 1),
+rgba(57, 0, 0, 0.45)
+);
+
+@import "bodyheader.scss";
+@import "article";
+@import "aside";
+@import "section";
+@import "footer";
+@import "webtablet";
+@import "mobile";
