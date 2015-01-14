@@ -24,12 +24,13 @@ header {
   background-position: center;
 }
 
-nav ul {
-  margin: 0;
-}
-
-nav li {
+nav {
+  ul {
+    margin: 0;
+  }
+  li {
   display: inline;
+  }
 }
 
 nav a, .left_nav a {

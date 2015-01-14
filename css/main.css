@@ -22,7 +22,6 @@ header {
 
 nav ul {
   margin: 0; }
-
 nav li {
   display: inline; }
 
@@ -94,15 +93,18 @@ article {
   width: 50%;
   margin-left: 15%;
   margin-right: 10%; }
+  article div {
+    text-decoration: none;
+    padding-left: 0;
+    margin-top: 0; }
+  article p {
+    font-size: 22px;
+    color: #646466;
+    line-height: 1.8em; }
 
 .post_info img, .post_info p, .post_info a {
   display: inline-block;
   vertical-align: middle; }
-
-article div {
-  text-decoration: none;
-  padding-left: 0;
-  margin-top: 0; }
 
 .post_info {
   margin-bottom: 40px; }
@@ -111,11 +113,6 @@ article div {
   border-radius: 100%;
   height: 25px;
   margin-right: 10px; }
-
-article p {
-  font-size: 22px;
-  color: #646466;
-  line-height: 1.8em; }
 
 article a, .color_change {
   color: #CFCFD1;
@@ -164,21 +161,18 @@ aside a:hover {
 .social {
   max-width: 75%;
   margin-left: 6%; }
-
-.social li {
-  display: inline;
-  padding-left: 5px;
-  padding-right: 5px; }
-
-.social a {
-  text-decoration: none;
-  font-size: 12px; }
-
-.ad img {
-  margin-bottom: 0; }
+  .social li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .social a {
+    text-decoration: none;
+    font-size: 12px; }
 
 .ad {
   margin-bottom: 0; }
+  .ad img {
+    margin-bottom: 0; }
 
 .adlink {
   float: right;
@@ -186,15 +180,13 @@ aside a:hover {
 
 .sidetext {
   margin-top: 50px; }
-
-.sidetext h3 {
-  font-size: 22px;
-  text-align: left; }
-
-.sidetext p {
-  font-size: 18px;
-  color: #CFCFD1;
-  line-height: 1.8em; }
+  .sidetext h3 {
+    font-size: 22px;
+    text-align: left; }
+  .sidetext p {
+    font-size: 18px;
+    color: #CFCFD1;
+    line-height: 1.8em; }
 
 /*******************************
 SECTION
@@ -203,11 +195,10 @@ section {
   border-top: 2px solid #CFCFD1;
   margin-top: 100px;
   position: relative; }
-
-section h2 {
-  text-align: center;
-  color: #1A3F7A;
-  margin-bottom: 30px; }
+  section h2 {
+    text-align: center;
+    color: #1A3F7A;
+    margin-bottom: 30px; }
 
 .popular_posts a, .popular_posts div {
   font-family: 'Oswald', sans-serif;
@@ -220,10 +211,8 @@ section h2 {
   width: 25%;
   float: left;
   position: relative; }
-
 .popular_posts a {
   width: 325px; }
-
 .popular_posts p {
   position: absolute;
   bottom: 10px;
@@ -273,9 +262,8 @@ FOOTER
 footer {
   padding-top: 20px;
   min-width: 100%; }
-
-footer nav {
-  display: inline; }
+  footer nav {
+    display: inline; }
 
 .copyright p, .mobile_copyright p {
   color: #CFCFD1; }
@@ -293,13 +281,11 @@ footer a, li {
 .copyright {
   margin-left: 100px;
   margin-top: 310px; }
-
-.copyright img, .copyright p {
-  display: inline-block;
-  vertical-align: middle; }
-
-.copyright img {
-  margin-right: 5px; }
+  .copyright img, .copyright p {
+    display: inline-block;
+    vertical-align: middle; }
+  .copyright img {
+    margin-right: 5px; }
 
 .right_footer_nav {
   float: right;
@@ -323,19 +309,19 @@ TABLET RESPONSIVE
   header {
     height: 275px;
     clear: both; }
-  header h1 {
-    font-size: 40px; }
-  header p {
-    font-size: 26px; }
+    header h1 {
+      font-size: 40px; }
+    header p {
+      font-size: 26px; }
   .left_nav, .right_nav {
     display: none; }
   header nav {
     width: 90%;
     margin: 0 auto;
     text-align: center; }
-  header nav ul {
-    padding-top: 10px;
-    margin-bottom: 20px; }
+    header nav ul {
+      padding-top: 10px;
+      margin-bottom: 20px; }
   .right_nav_mobile {
     position: relative; }
   #wave_logo {
@@ -343,36 +329,35 @@ TABLET RESPONSIVE
     display: block;
     width: 50px;
     margin: 0 auto; }
-  article h2 {
-    font-size: 50px; }
   article, aside, section, footer {
     display: block;
     vertical-align: top;
     min-width: 90%; }
   article {
     width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 40px; }
+    article h2 {
+      font-size: 50px; }
+    article p {
+      font-size: 20px;
+      color: #646466;
+      line-height: 1.4em; }
   .post_info {
     margin-bottom: 15px; }
-  article p {
-    font-size: 20px;
-    color: #646466;
-    line-height: 1.4em; }
   article a, .color_change {
     color: #CFCFD1;
     font-size: 18px; }
   blockquote {
     font-size: 22px; }
-  article {
-    margin-bottom: 40px; }
   aside {
     width: 90%;
     margin: 0 auto; }
-  .social a {
-    font-size: 14px; }
   .social {
     max-width: 45%;
     margin-left: 28%; }
+    .social a {
+      font-size: 14px; }
   .ad div {
     width: 90%;
     margin: 0 auto; }
@@ -397,13 +382,13 @@ TABLET RESPONSIVE
     display: block;
     vertical-align: top;
     min-width: 90%; }
-  .popular_posts p {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    margin: 0;
-    font-size: 28px;
-    max-width: 200px; }
+    .popular_posts p {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      margin: 0;
+      font-size: 28px;
+      max-width: 200px; }
   .surfer, .flight, .zach, .liquor {
     min-width: 80%;
     margin: 0 auto;
@@ -415,16 +400,16 @@ TABLET RESPONSIVE
     display: none; }
   footer {
     clear: both; }
-  footer nav {
-    width: 400px;
-    margin: 0 auto;
-    text-align: center; }
-  .copyright img {
-    display: block;
-    width: 50px;
-    margin: 0 auto; }
+    footer nav {
+      width: 400px;
+      margin: 0 auto;
+      text-align: center; }
   .copyright {
     margin: 0; }
+    .copyright img {
+      display: block;
+      width: 50px;
+      margin: 0 auto; }
   footer nav {
     text-align: center; }
   .mobile_right_footer_nav {
@@ -449,19 +434,19 @@ MOBILE RESPONSIVE
   header {
     height: 250px;
     clear: both; }
-  header h1 {
-    font-size: 32px; }
-  header p {
-    font-size: 18px; }
+    header h1 {
+      font-size: 32px; }
+    header p {
+      font-size: 18px; }
   .left_nav, .right_nav {
     display: none; }
   header nav {
     width: 90%;
     margin: 0 auto;
     text-align: center; }
-  header nav ul {
-    padding-top: 10px;
-    margin-bottom: 20px; }
+    header nav ul {
+      padding-top: 10px;
+      margin-bottom: 20px; }
   .right_nav_mobile {
     position: relative; }
   #wave_logo {
@@ -469,37 +454,36 @@ MOBILE RESPONSIVE
     display: block;
     width: 50px;
     margin: 0 auto; }
-  article h2 {
-    font-size: 48px; }
   article, aside, section, footer {
     display: block;
     vertical-align: top;
     min-width: 90%; }
   article {
     width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 40px; }
+    article h2 {
+      font-size: 48px; }
+    article p {
+      font-size: 18px;
+      color: #646466;
+      line-height: 1.4em; }
   .post_info img, .post_info p {
     display: none; }
   .post_info {
     margin-bottom: 15px; }
-  article p {
-    font-size: 18px;
-    color: #646466;
-    line-height: 1.4em; }
   article a, .color_change {
     color: #CFCFD1;
     font-size: 18px; }
   blockquote {
     font-size: 20px; }
-  article {
-    margin-bottom: 40px; }
   aside {
     width: 90%;
     margin: 0 auto; }
-  .social a {
-    font-size: 10px; }
   .social {
     margin-left: 15%; }
+    .social a {
+      font-size: 10px; }
   .ad div {
     width: 90%;
     margin: 0 auto; }
@@ -524,13 +508,13 @@ MOBILE RESPONSIVE
     display: block;
     vertical-align: top;
     min-width: 90%; }
-  .popular_posts p {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    margin: 0;
-    font-size: 28px;
-    max-width: 200px; }
+    .popular_posts p {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      margin: 0;
+      font-size: 28px;
+      max-width: 200px; }
   .surfer, .flight, .zach, .liquor {
     min-width: 80%;
     margin: 0 auto;
@@ -539,18 +523,16 @@ MOBILE RESPONSIVE
     display: none; }
   footer {
     clear: both; }
-  footer nav {
-    width: 400px;
-    margin: 0 auto;
-    text-align: center; }
-  .copyright img {
-    display: block;
-    width: 50px;
-    margin: 0 auto; }
+    footer nav {
+      width: 400px;
+      margin: 0 auto;
+      text-align: center; }
   .copyright {
     margin: 0; }
-  footer nav {
-    text-align: center; }
+    .copyright img {
+      display: block;
+      width: 50px;
+      margin: 0 auto; }
   .mobile_right_footer_nav {
     padding: 0;
     font-size: 18px; }

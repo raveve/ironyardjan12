@@ -19,14 +19,12 @@ TABLET RESPONSIVE
   header {
     height: 275px;
     clear: both;
-  }
-
-  header h1 {
-    font-size: 40px;
-  }
-
-  header p {
-    font-size: 26px;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 26px;
+    }
   }
 
   .left_nav, .right_nav {
@@ -37,11 +35,10 @@ TABLET RESPONSIVE
     width: 90%;
     margin: 0 auto;
     text-align: center;
-  }
-
-  header nav ul {
-    padding-top: 10px;
-    margin-bottom: 20px;
+    ul {
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
   }
 
   .right_nav_mobile {
@@ -55,10 +52,6 @@ TABLET RESPONSIVE
     margin: 0 auto;
   }
 
-  article h2 {
-    font-size: 50px;
-  }
-
   article, aside, section, footer {
     display: block;
     vertical-align: top;
@@ -68,16 +61,19 @@ TABLET RESPONSIVE
   article {
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 40px;
+    h2 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 20px;
+      color: $mid-gray;
+      line-height: 1.4em;
+    }
   }
 
   .post_info {
     margin-bottom: 15px;
-  }
-
-  article p {
-    font-size: 20px;
-    color: $mid-gray;
-    line-height: 1.4em;
   }
 
   article a, .color_change {
@@ -89,22 +85,17 @@ TABLET RESPONSIVE
     font-size: 22px;
   }
 
-  article {
-    margin-bottom: 40px;
-  }
-
   aside {
     width: 90%;
     margin: 0 auto;
   }
 
-  .social a {
-    font-size: 14px;
-  }
-
   .social {
     max-width: 45%;
     margin-left: 28%;
+    a {
+      font-size: 14px;
+    }
   }
 
   .ad div {
@@ -143,15 +134,14 @@ TABLET RESPONSIVE
     display: block;
     vertical-align: top;
     min-width: 90%;
-  }
-
-  .popular_posts p {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    margin: 0;
-    font-size: 28px;
-    max-width: 200px;
+    p {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      margin: 0;
+      font-size: 28px;
+      max-width: 200px;
+    }
   }
 
   .surfer, .flight, .zach, .liquor {
@@ -171,22 +161,19 @@ TABLET RESPONSIVE
 
   footer {
     clear: both;
+    nav {
+      width: 400px;
+      margin: 0 auto;
+      text-align: center;
+    }
   }
-
-  footer nav {
-    width: 400px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .copyright img {
-    display: block;
-    width: 50px;
-    margin: 0 auto;
-  }
-
   .copyright {
     margin: 0;
+    img {
+      display: block;
+      width: 50px;
+      margin: 0 auto;
+    }
   }
 
   footer nav {

@@ -4,10 +4,9 @@ FOOTER
 footer {
   padding-top: 20px;
   min-width: 100%;
-}
-
-footer nav {
-  display: inline;
+  nav {
+    display: inline;
+  }
 }
 
 .copyright p, .mobile_copyright p {
@@ -30,15 +29,13 @@ footer a, li {
 .copyright {
   margin-left: 100px;
   margin-top: 310px;
-}
-
-.copyright img, .copyright p {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.copyright img {
-  margin-right: 5px;
+  img, p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  img {
+    margin-right: 5px;
+  }
 }
 
 .right_footer_nav {

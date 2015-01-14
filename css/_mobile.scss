@@ -8,14 +8,12 @@ MOBILE RESPONSIVE
   header {
     height: 250px;
     clear: both;
-  }
-
-  header h1 {
-    font-size: 32px;
-  }
-
-  header p {
-    font-size: 18px;
+    h1 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 18px;
+    }
   }
 
   .left_nav, .right_nav {
@@ -26,11 +24,10 @@ MOBILE RESPONSIVE
     width: 90%;
     margin: 0 auto;
     text-align: center;
-  }
-
-  header nav ul {
-    padding-top: 10px;
-    margin-bottom: 20px;
+    ul {
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
   }
 
   .right_nav_mobile {
@@ -44,10 +41,6 @@ MOBILE RESPONSIVE
     margin: 0 auto;
   }
 
-  article h2 {
-    font-size: 48px;
-  }
-
   article, aside, section, footer {
     display: block;
     vertical-align: top;
@@ -57,6 +50,15 @@ MOBILE RESPONSIVE
   article {
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 40px;
+    h2 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 18px;
+      color: $mid-gray;
+      line-height: 1.4em;
+    }
   }
 
   .post_info img, .post_info p {
@@ -65,12 +67,6 @@ MOBILE RESPONSIVE
 
   .post_info {
     margin-bottom: 15px;
-  }
-
-  article p {
-    font-size: 18px;
-    color: $mid-gray;
-    line-height: 1.4em;
   }
 
   article a, .color_change {
@@ -82,21 +78,16 @@ MOBILE RESPONSIVE
     font-size: 20px;
   }
 
-  article {
-    margin-bottom: 40px;
-  }
-
   aside {
     width: 90%;
     margin: 0 auto;
   }
 
-  .social a {
-    font-size: 10px;
-  }
-
   .social {
     margin-left: 15%;
+    a {
+      font-size: 10px;
+    }
   }
 
   .ad div {
@@ -135,15 +126,14 @@ MOBILE RESPONSIVE
     display: block;
     vertical-align: top;
     min-width: 90%;
-  }
-
-  .popular_posts p {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    margin: 0;
-    font-size: 28px;
-    max-width: 200px;
+    p {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      margin: 0;
+      font-size: 28px;
+      max-width: 200px;
+    }
   }
 
   .surfer, .flight, .zach, .liquor {
@@ -158,26 +148,20 @@ MOBILE RESPONSIVE
 
   footer {
     clear: both;
-  }
-
-  footer nav {
-    width: 400px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .copyright img {
-    display: block;
-    width: 50px;
-    margin: 0 auto;
+    nav {
+      width: 400px;
+      margin: 0 auto;
+      text-align: center;
+    }
   }
 
   .copyright {
     margin: 0;
-  }
-
-  footer nav {
-    text-align: center;
+    img {
+      display: block;
+      width: 50px;
+      margin: 0 auto;
+    }
   }
 
   .mobile_right_footer_nav {

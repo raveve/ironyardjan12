@@ -35,25 +35,22 @@ aside a:hover {
 .social {
   max-width: 75%;
   margin-left: 6%;
-}
-
-.social li {
-  display: inline;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.social a {
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.ad img {
-  margin-bottom: 0;
+  li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 12px;
+  }
 }
 
 .ad {
   margin-bottom: 0;
+  img {
+    margin-bottom: 0;
+  }
 }
 
 .adlink {
@@ -63,15 +60,13 @@ aside a:hover {
 
 .sidetext {
   margin-top: 50px;
-}
-
-.sidetext h3 {
-  font-size: 22px;
-  text-align: left;
-}
-
-.sidetext p {
-  font-size: 18px;
-  color: $french-gray;
-  line-height: 1.8em;
+  h3 {
+    font-size: 22px;
+    text-align: left;
+  }
+  p {
+    font-size: 18px;
+    color: $french-gray;
+    line-height: 1.8em;
+  }
 }
